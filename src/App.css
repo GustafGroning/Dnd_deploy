@@ -1,0 +1,412 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    }
+
+  @media (min-width: 700px) {
+    .container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(14, 16vw);
+      grid-gap: 20px;
+      background: #E2CE9F;
+    }
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+    .races {
+      background-image: url(https://vignette.wikia.nocookie.net/forgottenrealms/images/2/2a/Drow_-_Dan_Scott.jpg/revision/latest?cb=20090527072808);
+      background-size: 100%;
+    }
+    .races:hover, .classes:hover, .gods:hover, .magic:hover, .alignment:hover {
+      transform: scale(1.18);
+      box-shadow: 0px 0px #696969, -1em 0 1.6em #696969;
+    }
+    .races, .classes, .gods, .magic, .alignment {
+      transition: all .2s ease-in-out;
+    }
+    .bigpic {
+      background-image: url(https://media.comicbook.com/2018/03/dnd-monsters-1093421-1280x0.jpeg);
+      background-size: 100%;
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 4;
+      grid-row-end: 6;
+      text-align: center;
+      transition: transform 0.8s;
+    }
+    .bigpic:hover {
+      transform: scale(0.98);
+      opacity: 0.9;
+    }
+    .classes, .gods, .magic, .alignment, .races, .bigpic, .textruta1, .textruta2 {
+
+    }
+    .classes {
+      background-image: url(https://www.gamersdecide.com/sites/default/files/styles/news_images/public/article2class3.jpg);
+      background-size: 100%;
+    }
+    .gods {
+      background-image: url(https://i1.wp.com/dmdave.com/wp-content/uploads/2019/02/dnd-god-195260480-1550176285584.jpg?resize=656%2C300&ssl=1);
+    }
+    .magic {
+      background-image: url(https://i0.wp.com/nerdarchy.com/wp-content/uploads/2018/04/shadow_magic___deep_magic_school_by_fesbraa-dawsetf.jpg?fit=1036%2C770&ssl=1);
+      background-size: 100%;
+    }
+    .alignment {
+      background-image: url(https://bigmemes.funnyjunk.com/pictures/Famous+dd+chaotic+evil+quotes+i+may+be+a+bard_4ccb43_6398129.jpg);
+      background-size: 100%;
+    }
+    .magictext, .alignmenttext, .racestext, .classestext, .godstext {
+      text-align: center;
+      font-size: 2.5vw;
+      height: 75%;
+      width: 100%;
+    }
+    .header {
+      grid-column-start: 1;
+      grid-column-end: 4;
+      grid-row-start: 1;
+      grid-row-end: 3;
+    }
+    .textruta1 {
+      background-image: url(https://geekandsundry.com/wp-content/uploads/2016/03/scag_header-970x544.jpg);
+      background-size: 100%;
+      grid-column-start: 1;
+      grid-column-end: 4;
+      grid-row-start: 7;
+      grid-row-end: 10;
+      transition: transform 0.5s, border-radius 0.3s;
+    }
+    .textruta2 {
+      background-image: url(https://cdnb.artstation.com/p/assets/images/images/019/116/597/large/taylor-christensen-dndparty.jpg?1562086106);
+      background-size: 100%;
+      grid-column-start: 1;
+      grid-column-end: 4;
+      grid-row-start: 11;
+      grid-row-end: 14;
+    }
+    .textruta1:hover {
+      transform: scale(0.98);
+      opacity: 0.9;
+      border-radius: 18px;
+    }
+    .textruta2 {
+      transition: transform 0.5s, border-radius 0.3s;
+    }
+    .textruta2:hover {
+      transform: scale(0.98);
+      opacity: 0.9;
+      border-radius: 18px;
+    }
+    .first-headline {
+      text-align: center;
+      margin-top: 0;
+      height: 25%;
+      width: 100%;
+    }
+    .second-headline {
+      text-align: center;
+      margin-top: 0;
+      height: 25%;
+      width: 100%;
+    }
+    .first-text, .second-text {
+      text-align: left;
+      margin-top: 30;
+      font-size: 2vw;
+      height: 70%;
+      width: 100%;
+      background: #F3BC7C 0.8;
+    }
+    .about {
+      grid-column-start: 1;
+      grid-column-end: 4;
+      grid-row-start: 7;
+      grid-row-end: 14;
+      border-radius: 18px;
+      font-family: arial;
+    }
+    .font1 {
+      font-size: 5vw;
+      color: white;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      font-weight: bold;
+    }
+    h1 {
+      font-size: 6vw;
+      color: white;
+
+      font-weight: bold;
+    }
+    p {
+      font-size: 2.5vw;
+      color: white;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      font-weight: bold;
+    }
+    .headertext {
+      position: absolute;
+      font-size: 6vw;
+      margin-left: 10vw;
+      color: red;
+    }
+    .footer {
+      grid-column-start: 1;
+      grid-column-end: 4;
+      grid-row-start: 14;
+      grid-row-end: end;
+      background: white;
+      font-family: arial;
+
+    }
+
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #293A42;
+    }
+    li {
+      display: block;
+      color: #E2CE9F;
+      text-align: center;
+      font-size: 2vw;
+      padding: 12px;
+      text-decoration: none;
+      border: solid #E2CE9F;
+      margin: 30px;
+      transition: color 0.3s, border-color 0.3s, border-radius 0.3s;
+    }
+    li:hover {
+      border-color:  #E2CE9F;
+      color:  #E2CE9F;
+      border-radius: 18px;
+    }
+    .menys {
+      display: flex;
+      text-decoration: none;
+      list-style-type: none;
+      justify-content: center;
+      padding: 5%;
+      font-size: 22px;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .container {
+      display: grid;
+      grid-template-columns: 25% 25% 25% 25%;
+      grid-template-rows: repeat(30, 8vw);
+      background: #E2CE9F;
+    }
+    .header {
+      grid-column-start: 1;
+      grid-column-end: 5;
+      grid-row-start: 1;
+      grid-row-end: 4;
+    }
+    img {
+      object-fit: fill;
+      width: 100%;
+      height: 100%;
+    }
+    .races {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 4;
+      grid-row-end: 7;
+    }
+    .classes {
+      grid-column-start: 3;
+      grid-column-end: 5;
+      grid-row-start: 4;
+      grid-row-end: 7;
+    }
+    .magic {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 7;
+      grid-row-end: 10;
+    }
+    .gods {
+      grid-column-start: 3;
+      grid-column-end: 5;
+      grid-row-start: 7;
+      grid-row-end: 10;
+    }
+    .alignment {
+      grid-column-start: 3;
+      grid-column-end: 5;
+      grid-row-start: 10;
+      grid-row-end: 13;
+    }
+    .bigpic {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 10;
+      grid-row-end: 13;
+      background-size: 100%;
+      background-image: url(https://media.comicbook.com/2018/03/dnd-monsters-1093421-1280x0.jpeg);
+    }
+    .classes, .gods, .magic, .alignment, .races, .bigpic, .textruta1, .textruta2 {
+      margin: 6px;
+    }
+    .textruta1 {
+      background-image: url(https://geekandsundry.com/wp-content/uploads/2016/03/scag_header-970x544.jpg);
+      grid-column-start: 1;
+      grid-column-end: 5;
+      grid-row-start: 14;
+      grid-row-end: 19;
+      background-size: 100%;
+      transition: transform 0.5s, border-radius 0.3s;
+    }
+
+    .textruta1:hover {
+      transform: scale(0.98);
+      opacity: 0.9;
+      border-radius: 18px;
+    }
+
+    .textruta2 {
+      background-image: url(https://cdnb.artstation.com/p/assets/images/images/019/116/597/large/taylor-christensen-dndparty.jpg?1562086106);
+      background-size: 100%;
+      grid-column-start: 1;
+      grid-column-end: 5;
+      grid-row-start: 21;
+      grid-row-end: 26;
+      transition: transform 0.5s, border-radius 0.3s;
+    }
+
+    .textruta2:hover {
+      transform: scale(0.98);
+      opacity: 0.9;
+      border-radius: 18px;
+    }
+
+
+      .footer {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 28;
+        grid-row-end: end;
+        background: white;
+        font-family: arial;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #293A42;
+      }
+      li {
+        display: block;
+        color: white;
+        text-align: center;
+        font-size: 2vw;
+        padding: 12px;
+        text-decoration: none;
+        border: #E2CE9F;
+        margin: 10px;
+        transition: transform 0.5s, color 0.7s, border-color 0.7s;
+      }
+      li:hover {
+        border-color: #E2CE9F;
+        color: #E2CE9F;
+        transform: scale(1.15);
+      }
+      .menys {
+        display: flex;
+        text-decoration: none;
+        list-style-type: none;
+        justify-content: center;
+        padding: 5%;
+        font-size: 22px;
+
+      }
+
+
+
+    .races {
+      background-image: url(https://vignette.wikia.nocookie.net/forgottenrealms/images/2/2a/Drow_-_Dan_Scott.jpg/revision/latest?cb=20090527072808);
+      background-size: 100%;
+    }
+    .classes {
+      background-image: url(https://www.gamersdecide.com/sites/default/files/styles/news_images/public/article2class3.jpg);
+      background-size: 100%;
+    }
+    .gods {
+      background-image: url(https://i1.wp.com/dmdave.com/wp-content/uploads/2019/02/dnd-god-195260480-1550176285584.jpg?resize=656%2C300&ssl=1);
+    }
+    .magic {
+      background-image: url(https://i0.wp.com/nerdarchy.com/wp-content/uploads/2018/04/shadow_magic___deep_magic_school_by_fesbraa-dawsetf.jpg?fit=1036%2C770&ssl=1);
+      background-size: 100%;
+    }
+    .alignment {
+      background-image: url(https://bigmemes.funnyjunk.com/pictures/Famous+dd+chaotic+evil+quotes+i+may+be+a+bard_4ccb43_6398129.jpg);
+      background-size: 100%;
+    }
+
+
+    h1 {
+      font-size: 6vw;
+      color: white;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      font-weight: bold;
+    }
+    p {
+      font-size: 2.5vw;
+      color: white;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      font-weight: bold;
+    }
+    .headertext {
+      position: absolute;
+      font-size: 6vw;
+      margin-left: 10vw;
+      color: red;
+    }
+
+    .first-headline {
+      text-align: center;
+      margin-top: 0;
+      height: 25%;
+      width: 100%;
+    }
+    .second-headline {
+      text-align: center;
+      margin-top: 0;
+      height: 25%;
+      width: 100%;
+    }
+    .first-text, .second-text {
+     display: none;
+    }
+
+    .magictext, .alignmenttext, .racestext, .classestext, .godstext, .font1 {
+      text-align: center;
+      font-size: 3vw;
+      height: 75%;
+      width: 100%;
+    }
+
+    .headertext {
+      position: absolute;
+      font-size: 4vw;
+      margin-left: 7vw;
+      color: red;
+    }
+
+    .races:hover, .classes:hover, .gods:hover, .magic:hover, .alignment:hover, .bigpic:hover {
+      transform: scale(1.18);
+      box-shadow: 0px 0px #696969, -1em 0 1.6em #696969;
+    }
+    .races, .classes, .gods, .magic, .alignment, .bigpic {
+      transition: all .2s ease-in-out;
+    }
+  }
