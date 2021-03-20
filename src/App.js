@@ -13,7 +13,7 @@ function App() {
 
 
     <div class="bigpic">
-      <p class="font1"> INTRODUCTION TO ROLE-PLAYING </p>
+      <p class="font1"> INTRODUCTION TO ROLE-PLAYING TEST TEST TEST</p>
     </div>
 
     <div class="races"> <p class="racestext"> RACES</p> </div>
