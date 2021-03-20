@@ -13,11 +13,11 @@ function App() {
 
 
     <div class="bigpic">
-      <p class="font1"> INTRODUCTION TO ROLE-PLAYING TEST</p>
+      <p class="font1"> INTRODUCTION TO ROLE-PLAYING</p>
     </div>
 
-    <div class="races"> <p class="racestext"> RACES DOES THIS WORK</p> </div>
-    <div class="classes">  <p class="classestext"> CLASSES TESTING</p>  </div>
+    <div class="races"> <p class="racestext"> RACES</p> </div>
+    <div class="classes">  <p class="classestext"> CLASSES</p>  </div>
 
     <div class="magic"> <p class="magictext"> MAGIC </p> </div>
 
