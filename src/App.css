@@ -79,6 +79,9 @@ html, body {
       grid-row-start: 7;
       grid-row-end: 10;
       transition: transform 0.5s, border-radius 0.3s;
+      padding-right: 80px;
+      padding-left: 100px;
+
     }
     .textruta2 {
       background-image: url(https://cdnb.artstation.com/p/assets/images/images/019/116/597/large/taylor-christensen-dndparty.jpg?1562086106);
@@ -87,6 +90,8 @@ html, body {
       grid-column-end: 4;
       grid-row-start: 11;
       grid-row-end: 14;
+      padding-right: 80px;
+      padding-left: 100px;
     }
     .textruta1:hover {
       transform: scale(0.98);
